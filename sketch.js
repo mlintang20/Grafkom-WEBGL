@@ -24,3 +24,13 @@ function draw() {
 
   angle += 0.02;
 }
+
+function keyPressed() {
+  if (keyCode === 32) {
+    noLoop();
+  }
+}
+
+function keyReleased() {
+  loop();
+}
